@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.thymeleaf.com">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link th:rel="stylesheet" th:href="@{../css/styles.css}" type="text/css" href="../static/css/styles.css">
+</head>
+
+<body>
+    <div>
+        <div th:insert="layout/header :: header"></div>
+    </div>
+    <div>
+        <div th:insert="layout/footer :: footer "></div>
+    </div>
+
+    <script th:src="@{../js/app.js} " type="text/javascript " src="../static/js/app.js"></script>
+</body>
+
+</html>
