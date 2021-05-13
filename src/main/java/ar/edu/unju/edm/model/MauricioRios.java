@@ -4,9 +4,9 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class MauricioRios {
-	
-	private Integer idClase; 
-	private String nombre; 
-	private String apellido;
 
+	public int idClase; 
+	public String Nombre; 
+	public String Apellido; 
+	
 }
